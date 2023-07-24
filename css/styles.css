@@ -34,7 +34,7 @@
     border-color: rgb(0, 0, 0);
     box-shadow: 10px 6px 6px rgba(211, 211, 211, 0.221);
     width: 350px;
-    height: 760px;
+    height: auto;
     background-size: cover;
 }
 
@@ -46,14 +46,15 @@
 
 div.imagen {
     font-size: 120px !important;
+    margin-bottom: 15px;
 }
 
 img, svg {
     padding: 0px;
     margin-bottom: 10px;
+    width: 295px;
+    height: 180px;
     border-radius: 4px;
-    width: 100%;
-    height: auto;
 }
 
 div.bibicleta {
@@ -68,6 +69,7 @@ div.importe {
 
 div.descipsion{
     font-family: ui-serif;
+    height: 400px;
 }
 
 button {
@@ -92,11 +94,10 @@ button:active {
     background-color: rgb(255, 255, 255);
     border-radius: 5px;
     font-family: cursive;
-    margin-bottom: 10px;
     width: 300px;
     border-radius: 30px;
     font-family: initial;
-    margin: 5px;
+    margin: 10px;
     padding: 5px;
 }
 
@@ -131,7 +132,8 @@ h1 {
 }
 
 .logoPrincipal{
-    width: 80px;
+    width: 60px;
+    height: 60px;
 }
 
 h2 {

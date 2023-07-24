@@ -34,7 +34,7 @@
     border-color: rgb(0, 0, 0);
     box-shadow: 10px 6px 6px rgba(211, 211, 211, 0.221);
     width: 350px;
-    height: 800px;
+    height: 760px;
     background-size: cover;
 }
 
@@ -51,18 +51,23 @@ div.imagen {
 img, svg {
     padding: 0px;
     margin-bottom: 10px;
-    width: 295px;
-    height: 180px;
     border-radius: 4px;
+    width: 100%;
+    height: auto;
 }
 
 div.bibicleta {
-    font-size: 18px;
+    font-size: 20px;
+    font-weight: bold;
 }
 
 div.importe {
     font-size: 16px;
     font-weight: 700;
+}
+
+div.descipsion{
+    font-family: ui-serif;
 }
 
 button {
@@ -123,6 +128,10 @@ h1 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 60px !important;
     text-align: center;
+}
+
+.logoPrincipal{
+    width: 80px;
 }
 
 h2 {

@@ -20,7 +20,7 @@ function eliminarProducto(codigo) {
         carrito.splice(index, 1);
         localStorage.setItem('Carrito', JSON.stringify(carrito));
         armarCarrito();
-        mostrarPrecioTotal();
+        mostrarPrecioTotal(carrito);
     }
 }
 
@@ -49,17 +49,19 @@ function calcularPrecioTotal() {
     return total;
 }
 
-function mostrarPrecioTotal() {
-    const precioTotal = calcularPrecioTotal();
-    const precioTotalElement = document.getElementById('precioTotal');
-    precioTotalElement.textContent = `$ ${precioTotal.toLocaleString()}`;
+function mostrarPrecioTotal(carrito) {
+    if (carrito.length !== 0){
+        const precioTotal = calcularPrecioTotal();
+        const precioTotalElement = document.getElementById('precioTotal');
+        precioTotalElement.textContent = `$ ${precioTotal.toLocaleString()}`;
+    }
 }
 
 function vaciarCarrito() {
     localStorage.removeItem('Carrito');
     carrito.length = 0;
     armarCarrito();
-    mostrarPrecioTotal();
+    mostrarPrecioTotal(carrito);
 }
 
 const btnComprar = document.getElementById('btnComprar');
@@ -76,4 +78,4 @@ btnComprar.addEventListener('click', function () {
 });
 
 armarCarrito()
-mostrarPrecioTotal();
+mostrarPrecioTotal(carrito);

@@ -42,7 +42,7 @@ window.onscroll = function() {
                     <div class="imagen">
                         <img src="${imagen}" alt="${nombre}">
                     </div>
-                    <div class="prenda">
+                    <div class="bibicleta">
                         <p>${nombre}</p> 
                     </div>
                     <div class="importe">

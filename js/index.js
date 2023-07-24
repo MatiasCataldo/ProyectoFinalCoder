@@ -36,7 +36,7 @@ window.onscroll = function() {
                     <h4>⏳</h4>
                 </div>`
     }
-    
+
     function retornarCardHTML({ imagen, codigo, nombre, precio, descipsion } = producto) {
         return `<div class="div-card">
                     <div class="imagen">
@@ -46,13 +46,15 @@ window.onscroll = function() {
                         <p>${nombre}</p> 
                     </div>
                     <div class="importe">
-                        <p>$ ${precio}</p>
+                        <p>$ ${precio.toLocaleString()}</p>
                     </div>
                     <div class="descipsion">
                         <p> ${descipsion}</p>
                     </div>
                     <div class="comprar">
-                        <button class="button button-outline button-add" id="${codigo}">ADD➡️</button>
+                        <button class="button button-outline button-add" id="${codigo}">ADD
+                            <i class="fas fa-cart-plus"></i>
+                        </button>
                     </div>
                 </div>`;
     }

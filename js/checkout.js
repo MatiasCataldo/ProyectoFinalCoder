@@ -33,7 +33,6 @@ function listarProductosEnCarritoHTML(bicicleta) {
         </tr>`;
 }
 
-
 document.addEventListener('click', function (event) {
     if (event.target.classList.contains('btn-quitar')) {
         const codigoProducto = parseInt(event.target.dataset.codigo);
@@ -50,7 +49,7 @@ function calcularPrecioTotal() {
 }
 
 function mostrarPrecioTotal(carrito) {
-    if (carrito.length !== 0){
+    if (carrito.length !== 0) {
         const precioTotal = calcularPrecioTotal();
         const precioTotalElement = document.getElementById('precioTotal');
         precioTotalElement.textContent = `$ ${precioTotal.toLocaleString()}`;
@@ -64,18 +63,38 @@ function vaciarCarrito() {
     mostrarPrecioTotal(carrito);
 }
 
-const btnComprar = document.getElementById('btnComprar');
-btnComprar.addEventListener('click', function () {
-    if (carrito.length > 0) {
-        Swal.fire({
-            title: 'Compra realizada',
-            icon: 'success',
-            text: 'Gracias por tu compra!',
-            timer: 2500
-        });
-        vaciarCarrito();
+function startProgress() {
+    const button = document.getElementById('btnComprar');
+    if (button.classList.contains('disabled')) {
+        // Si el botón está desactivado, no hacer nada
+        return;
     }
-});
+    const progressBar = document.createElement('BotonCarga');
+    progressBar.classList.add('progressBar');
+    button.appendChild(progressBar);
+    let width = 0;
+    const interval = setInterval(frame, 50);
+    function frame() {
+        console.log("frame")
+        if (width >= 100) {
+            console.log("if")
+            Swal.fire({
+                title: 'Compra realizada',
+                icon: 'success',
+                text: 'Gracias por tu compra!',
+                timer: 2500
+            });
+            vaciarCarrito();
+            clearInterval(interval);
+            button.classList.remove('disabled');
+            progressBar.remove();
+        } else {
+            width++;
+            progressBar.style.width = width + '%';
+        }
+    }
+    button.classList.add('disabled');
+}
 
 armarCarrito()
 mostrarPrecioTotal(carrito);

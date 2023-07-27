@@ -75,9 +75,7 @@ function startProgress() {
     let width = 0;
     const interval = setInterval(frame, 50);
     function frame() {
-        console.log("frame")
         if (width >= 100) {
-            console.log("if")
             Swal.fire({
                 title: 'Compra realizada',
                 icon: 'success',

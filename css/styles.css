@@ -249,11 +249,6 @@ article:has(:hover, :focus) {
     border-radius: 50px;
 }
 
-
-/************************ 
-  Generic layout (demo looks)
-  **************************/
-
 *,
 *::before,
 *::after {

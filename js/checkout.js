@@ -37,6 +37,17 @@ document.addEventListener('click', function (event) {
     if (event.target.classList.contains('btn-quitar')) {
         const codigoProducto = parseInt(event.target.dataset.codigo);
         eliminarProducto(codigoProducto);
+        Toastify({
+            text: `Producto Eliminado ❌`,
+            duration: 1500,
+            gravity: "top", // `top` or `bottom`
+            position: "right", // `left`, `center` or `right`
+            stopOnFocus: true, // Prevents dismissing of toast on hover
+            style: {
+                background: "rgba(236, 3, 3, 0.945)",
+            },
+            onClick: function(){} // Callback after click
+            }).showToast();
     }
 });
 

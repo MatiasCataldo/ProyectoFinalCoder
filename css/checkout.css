@@ -28,12 +28,35 @@ h3 {
 }
 
 /* Estilos para el contenedor del botón de "COMPRAR" */
-.centrar-div {
+.botonSeguir {
     display: flex;
+    background-color: #4CAF50;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
     justify-content: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  .botonSeguir:hover {
+    background-color: #f8d614e8;
+    color: #fff;
+  }
+  
+  .seguirCompra {
+    height: 40px;
+    width: 300px;
+    padding: 0px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    background-color: #4CAF50;
+    border: 0px;
+    text-align: center;
     align-items: center;
-    margin-top: 20px;
-}
+  }
 
 /* Estilos para el botón de "COMPRAR" */
 .button {
@@ -47,7 +70,7 @@ h3 {
 }
 
 .button:hover {
-    background-color: #45a049;
+    background-color: #f8d614e8;;
 }
 
 .progressBar {
@@ -76,6 +99,7 @@ h3 {
     border: none;
     cursor: pointer;
     overflow: hidden;
+    width: 300px;
 }
 
 #btnComprar:hover {

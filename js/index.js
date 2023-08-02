@@ -67,12 +67,17 @@ window.onscroll = function() {
                 carrito.push(producto)
                 localStorage.setItem('Carrito', JSON.stringify(carrito))
                 mostrarTotalProdsEnCarrito()
-                Swal.fire({
-                    title: `Producto agregado: ${producto.nombre}`,
-                    icon: 'info',
-                    showConfirmButton: false,
-                    timer: 2500,
-                })
+                Toastify({
+                    text: `Producto agregado: ${producto.nombre} ✅`,
+                    duration: 1500,
+                    gravity: "top", // `top` or `bottom`
+                    position: "right", // `left`, `center` or `right`
+                    stopOnFocus: true, // Prevents dismissing of toast on hover
+                    style: {
+                        background: "darkcyan",
+                    },
+                    onClick: function(){} // Callback after click
+                    }).showToast();
             })
         })
     }

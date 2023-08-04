@@ -1,0 +1,86 @@
+[
+    {
+        "imagen": "./imagenes/specialized-sworks.jpeg",
+        "codigo": 1,
+        "nombre": "Specialized Epic World Cup S-Works",
+        "precio": 1840000,
+        "descipsion": "La Specialized Epic World Cup es una bicicleta de montaña de alto rendimiento diseñada para  carreras de cross-country. Con su cuadro ligero de fibra de carbono y geometría agresiva, esta bicicleta ofrece una excelente respuesta y eficiencia en terrenos exigentes. Equipada con una suspensión delantera y trasera de calidad, la Epic World Cup absorbe los impactos de manera suave y controlada, brindando una tracción excepcional. Su sistema de transmisión de cambios suaves y precisos permite una aceleración rápida y constante. Esta bicicleta es una opción ideal para los ciclistas que buscan una máquina de competición confiable y veloz en el mundo del cross-country."
+    },
+    {
+        "imagen": "./imagenes/trek-supercaliber.jpg",
+        "codigo": 2,
+        "nombre": "Trek Supercaliber",
+        "precio": 1650000,
+        "descipsion": "La Trek Supercaliber es una bicicleta de montaña diseñada para ofrecer velocidad y rendimiento en las competiciones de cross-country. Con su cuadro ligero y rígido de carbono OCLV, esta bicicleta es ágil y ágil en los senderos técnicos. La característica distintiva de la Supercaliber es su tecnología IsoStrut, que combina la suspensión trasera minimalista con una horquilla delantera de alta gama para ofrecer una conducción suave y eficiente. Esta bicicleta brinda una excelente capacidad de escalada y aceleración, y su sistema de transmisión de cambios rápidos permite una respuesta inmediata. Con la Trek Supercaliber, los ciclistas experimentan la combinación perfecta de velocidad y control en las carreras de cross-country."
+    },
+    {
+        "imagen": "./imagenes/scott-spark.jpg",
+        "codigo": 3,
+        "nombre": "Scott Spark",
+        "precio": 1540000,
+        "descipsion": "La Scott Spark es una bicicleta de montaña versátil y altamente capaz que combina una geometría ágil con una suspensión de alta calidad. Con un cuadro de fibra de carbono liviano y resistente, la Spark es ágil en los senderos y ofrece una excelente eficiencia de pedaleo. Su suspensión delantera y trasera ajustable permite adaptarse a diferentes terrenos y preferencias de conducción. Equipada con componentes de alta gama, como una transmisión precisa y frenos potentes, la Spark brinda un rendimiento confiable y preciso. Ya sea en carreras de cross-country o en emocionantes aventuras en senderos, la Scott Spark ofrece una conducción rápida, ágil y llena de diversión."
+    },
+    {
+        "imagen": "./imagenes/SantaCruz.jpg",
+        "codigo": 4,
+        "nombre": "Santa Cruz V10",
+        "precio": 1540000,
+        "descipsion": "La bicicleta de downhill Santa Cruz V10 es una máquina de carreras diseñada específicamente para conquistar los terrenos más extremos. Con un cuadro de carbono de alta resistencia y una geometría agresiva, la V10 ofrece una estabilidad excepcional a altas velocidades y en terrenos difíciles. Su suspensión de larga distancia de recorrido, combinada con un sistema de amortiguación avanzado, absorbe los impactos con facilidad, brindando un control y una tracción superiores. Equipada con componentes de alta gama, como frenos potentes y una transmisión precisa, esta bicicleta permite a los ciclistas enfrentar descensos técnicos con confianza y velocidad. La Santa Cruz V10 es la elección perfecta para aquellos que buscan la máxima adrenalina en el mundo del downhill."
+    },
+    {
+        "imagen": "./imagenes/pivot-phoenix.jpeg",
+        "codigo": 5,
+        "nombre": "Pivot Phoenix",
+        "precio": 3540000,
+        "descipsion": "La bicicleta de downhill Pivot Phoenix es una máquina de alto rendimiento diseñada para conquistar los terrenos más desafiantes en las carreras de descenso. Con un cuadro resistente y duradero construido con aleación de aluminio de alta calidad, la Phoenix ofrece una combinación perfecta de resistencia y rigidez para enfrentar los terrenos más exigentes. Su suspensión de largo recorrido y alta calidad absorbe los impactos con facilidad, brindando una tracción excepcional y un control preciso. Equipada con componentes de alto rendimiento, como frenos de disco potentes y una transmisión suave, la Pivot Phoenix proporciona una experiencia de downhill emocionante y confiable para los ciclistas más exigentes."
+    },
+    {
+        "imagen": "./imagenes/Canyon-Lux-Greber.jpg",
+        "codigo": 6,
+        "nombre": "Canyon LUX",
+        "precio": 1770000,
+        "descipsion": "La bicicleta de montaña Cayon Lux es una opción versátil y ágil para los ciclistas que buscan rendimiento en cross-country. Con un cuadro de carbono ligero y resistente, la Lux ofrece una combinación ideal de rigidez y comodidad. Su geometría optimizada y su suspensión eficiente permiten una aceleración rápida y una conducción suave en terrenos variados. Equipada con componentes de alta calidad, como una transmisión de cambios precisos y frenos potentes, esta bicicleta garantiza un rendimiento confiable en cada salida. Ya sea para competir en carreras o disfrutar de aventuras en senderos, la Cayon Lux ofrece una experiencia de conducción ágil y emocionante."
+    },
+    {
+        "imagen": "./imagenes/orbea.jpeg",
+        "codigo": 7,
+        "nombre": "Orbea Oiz",
+        "precio": 1440000,
+        "descipsion": "La bicicleta de montaña Orbea Oiz es una bicicleta de cross-country diseñada para alcanzar la máxima eficiencia y velocidad en las carreras. Con un cuadro de carbono liviano y rígido, la Oiz ofrece una excelente transferencia de potencia y agilidad en los senderos. Su suspensión trasera de alta calidad proporciona un equilibrio perfecto entre comodidad y rendimiento, absorbiendo los golpes de manera suave y controlada. Equipada con componentes de alta gama, como una transmisión precisa y frenos potentes, esta bicicleta garantiza un rendimiento confiable y una experiencia de conducción emocionante. La Orbea Oiz es la elección ideal para los ciclistas de cross-country que buscan velocidad y eficiencia en cada pedalada."
+    },
+    {
+        "imagen": "./imagenes/ktm.jpeg",
+        "codigo": 8,
+        "nombre": "KTM Scarp",
+        "precio": 1540000,
+        "descipsion": "La bicicleta de montaña KTM Scarp es una opción de alto rendimiento para el cross-country y el trail. Con un cuadro ligero de carbono o aluminio, la Scarp ofrece una excelente combinación de rigidez y agilidad. Su geometría optimizada y su suspensión eficiente permiten una aceleración rápida y un manejo preciso en terrenos técnicos. Equipada con componentes de calidad, como una transmisión suave y frenos potentes, esta bicicleta garantiza un rendimiento confiable y una experiencia de conducción emocionante. Ya sea que estés compitiendo en carreras de cross-country o disfrutando de aventuras en senderos, la KTM Scarp te brinda una conducción rápida y ágil con una excelente relación peso-rendimiento."
+    },
+    {
+        "imagen": "./imagenes/BH.jpeg",
+        "codigo": 9,
+        "nombre": "BH lynx race evo",
+        "precio": 1840000,
+        "descipsion": "La bicicleta de montaña BH Lynx Race EVO es una máquina de competición diseñada para el cross-country de alto rendimiento. Con un cuadro de carbono ligero y resistente, la Lynx Race EVO ofrece una combinación perfecta de rigidez y comodidad. Su geometría agresiva y su suspensión de alta calidad permiten una excelente tracción y control en los terrenos más exigentes. Equipada con componentes de primera categoría, como una transmisión precisa y frenos potentes, esta bicicleta garantiza un rendimiento confiable y una experiencia de conducción emocionante. La BH Lynx Race EVO es la elección ideal para los ciclistas competitivos que buscan velocidad y eficiencia en las carreras de cross-country."
+    },
+    {
+        "imagen": "./imagenes/yeti.jpeg",
+        "codigo": 10,
+        "nombre": "Yeti SB160 T3",
+        "precio": 2540000,
+        "descipsion": "La bicicleta de montaña Yeti SB160 T3 es una máquina de trail/enduro diseñada para conquistar los terrenos más exigentes. Con un cuadro de fibra de carbono de alta calidad y una geometría agresiva, la SB160 ofrece una combinación perfecta de estabilidad y agilidad. Su suspensión de largo recorrido y alta gama absorbe los impactos con suavidad, brindando un control excepcional en descensos técnicos y una tracción impresionante en subidas empinadas. Equipada con componentes de primera calidad, como una transmisión suave y frenos potentes, esta bicicleta proporciona una experiencia de conducción confiable y emocionante en cualquier tipo de terreno. La Yeti SB160 T3 es la elección ideal para los amantes del trail y el enduro que buscan un rendimiento excepcional."
+    },
+    {
+        "imagen": "./imagenes/willer.jpeg",
+        "codigo": 11,
+        "nombre": "Wilier Urta SLR",
+        "precio": 2940000,
+        "descipsion": "La bicicleta de montaña Wilier Urta SLR es una bicicleta de trail de alto rendimiento diseñada para los ciclistas más exigentes. Con un cuadro de carbono de alta calidad, la Urta SLR combina rigidez y ligereza para una excelente respuesta en los terrenos más difíciles. Su geometría agresiva y su suspensión de largo recorrido ofrecen una conducción suave y controlada en los descensos más técnicos. Equipada con componentes de primera categoría, como una transmisión precisa y frenos potentes, esta bicicleta garantiza un rendimiento confiable y una experiencia de conducción emocionante. La Wilier Urta SLR es la elección perfecta para los ciclistas que buscan una bicicleta versátil y de alto rendimiento en el mundo del trail."
+    },
+    {
+        "imagen": "./imagenes/giant.jpeg",
+        "codigo": 12,
+        "nombre": "Giant Glory",
+        "precio": 1740000,
+        "descipsion": "La bicicleta de montaña Giant Glory es una máquina de downhill de alto rendimiento diseñada para enfrentar los terrenos más desafiantes. Con un cuadro de aluminio robusto y duradero, la Glory ofrece una combinación perfecta de resistencia y agilidad. Su suspensión de largo recorrido y alta calidad absorbe los impactos de manera suave y controlada, brindando una tracción excepcional y un manejo preciso en los descensos más técnicos. Equipada con componentes de alta gama, como frenos potentes y una transmisión suave, esta bicicleta garantiza un rendimiento confiable y una experiencia emocionante en el downhill. La Giant Glory es la elección ideal para los ciclistas que buscan velocidad y confianza en las carreras de descenso."
+    }
+]

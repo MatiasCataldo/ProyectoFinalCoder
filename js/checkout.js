@@ -38,7 +38,7 @@ document.addEventListener('click', function (event) {
         const codigoProducto = parseInt(event.target.dataset.codigo);
         eliminarProducto(codigoProducto);
         Toastify({
-            text: `Producto Eliminado ❌`,
+            text: `Producto Eliminado❌`,
             duration: 1500,
             gravity: "top", // `top` or `bottom`
             position: "right", // `left`, `center` or `right`

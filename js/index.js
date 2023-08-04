@@ -22,6 +22,8 @@ window.onscroll = function() {
     const productosEnCarrito = document.querySelector('span#productosEnCarrito')
     const container = document.querySelector('div#container.container')
     const inputSearch = document.querySelector('input#inputSearch')
+    //const URL = "js/bicicletas.json"
+    const URL = "https://64cc51d22eafdcdc8519c1cc.mockapi.io/Bicis"
     
     function mostrarTotalProdsEnCarrito() {
         productosEnCarrito.textContent = bicicletas.length
@@ -88,11 +90,18 @@ window.onscroll = function() {
         activarClickEnBotones()
     }
     
-    bicicletas.length > 0 ? cargarProductos(bicicletas) : container.innerHTML = retornarCardError()
-    
     inputSearch.addEventListener('search', ()=> {
         localStorage.setItem("ultimaBusqueda", inputSearch.value)
         const resultado = bicicletas.filter((bicicleta)=> bicicleta.nombre.toLowerCase().includes(inputSearch.value.toLowerCase()))
         cargarProductos(resultado)
     })
     
+    function obtenerBicicletas(){
+        fetch(URL)
+        .then((response)=> response.json())
+        .then((data)=>  bicicletas.push(...data))
+        .then(()=> cargarProductos(bicicletas))
+        .catch((error)=> container.innerHTML = retornarCardError())
+    }
+
+    obtenerBicicletas()
